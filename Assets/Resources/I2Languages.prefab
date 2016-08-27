@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerms:
+  - Term: Obtaning seed...
+    TermType: 0
+    Description: 
+    Languages:
+    - Obtaining seed...
+    - Obteniendo nivel...
+  - Term: Growth Mode
+    TermType: 0
+    Description: 
+    Languages:
+    - Growth Mode
+    - Modo Creciente
+  - Term: Weekly Challenge
+    TermType: 0
+    Description: 
+    Languages:
+    - Weekly Challenge
+    - Reto Semanal
+  - Term: Normal Mode
+    TermType: 0
+    Description: 
+    Languages:
+    - Normal Mode
+    - Modo Normal
+  - Term: Tutorial
+    TermType: 0
+    Description: 
+    Languages:
+    - Tutorial
+    - Reglas
+  - Term: RANK
+    TermType: 0
+    Description: 
+    Languages:
+    - RANK
+    - PUESTO
+  - Term: Instructions/Rotate
+    TermType: 0
+    Description: 
+    Languages:
+    - Rotate pieces with right click or the Z key.
+    - Gire las piezas con click derecho o la tecla Z.
+  - Term: Instructions/GameGoal
+    TermType: 0
+    Description: 
+    Languages:
+    - 'The goal of the game is to place pieces
+
+      and form 4 by 4 squares to clear blocks.'
+    - 'El objetivo del juego es colocar piezas
+
+      y formar cuadrados de 4 por 4 para eliminar bloques.'
+  - Term: Instructions/Flipping
+    TermType: 0
+    Description: 
+    Languages:
+    - Flip pieces with middle click or the X key.
+    - Voltee la pieza con click central o la tecla X.
+  - Term: Instructions/PieceComplexity
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Pieces get more complex
+
+      as the game goes on.'
+    - Las piezas se complican a medida que juega.
+  - Term: Instructions/BoardPainting
+    TermType: 0
+    Description: 
+    Languages:
+    - 'As you clear blocks, the game area
+
+      will gradually turn gold.'
+    - 'A medida que elimina bloques, la zona de
+
+      juego gradualmente se vuelve dorada.'
+  - Term: Instructions/LifeUsage
+    TermType: 0
+    Description: 
+    Languages:
+    - 'When there are no available moves,
+
+      a life is consumed.'
+    - 'Se consume una vida cuando no
+
+      quedan movimientos disponibles.'
+  - Term: Instructions/SpecialPiece
+    TermType: 0
+    Description: 
+    Languages:
+    - At this point you will receive a special piece.
+    - En ese momento se le otorga una pieza especial.
+  - Term: Instructions/GameOver
+    TermType: 0
+    Description: 
+    Languages:
+    - No moves or lives means GAME OVER.
+    - 'Si no quedan movimientos ni vidas
+
+      el juego termina.'
+  - Term: Instructions/PlayQuickly
+    TermType: 0
+    Description: 
+    Languages:
+    - Playing quickly will award you more points.
+    - Jugar velozmente otorga mayor puntaje.
+  - Term: Instructions/MultDecrease
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Not playing for a while
+
+      will reduce your multiplier.'
+    - 'No jugar por mucho tiempo
+
+      disminuye el multiplicador de puntaje.'
+  - Term: Instructions/Discover
+    TermType: 0
+    Description: 
+    Languages:
+    - 'We left some things for you to discover.
+
+      Get as many points as you can
+
+      and compete with your friends!'
+    - 'Hemos dejado algunas cosas por descubrir.
+
+      Obtenga cuantos puntos pueda
+
+      y compita con sus amigos!'
+  - Term: Next Mutation
+    TermType: 0
+    Description: 
+    Languages:
+    - Next Mutation
+    - "Mutaci\xF3n"
+  - Term: Next
+    TermType: 0
+    Description: 
+    Languages:
+    - Next
+    - Sigue
+  - Term: Score
+    TermType: 0
+    Description: 
+    Languages:
+    - Score
+    - Puntaje
+  - Term: Personal Best
+    TermType: 0
+    Description: 
+    Languages:
+    - Personal Best
+    - Mejor Puntaje
+  - Term: Restart
+    TermType: 0
+    Description: 
+    Languages:
+    - Restart
+    - Reiniciar
+  - Term: Main Menu
+    TermType: 0
+    Description: 
+    Languages:
+    - Main Menu
+    - Salir
+  - Term: Resume
+    TermType: 0
+    Description: 
+    Languages:
+    - Resume
+    - Continuar
+  - Term: No Moves!
+    TermType: 0
+    Description: 
+    Languages:
+    - No Moves!
+    - No Hay Movimientos!
+  - Term: Game Over
+    TermType: 0
+    Description: 
+    Languages:
+    - Game Over
+    - Fin de la Partida
+  - Term: Time Up
+    TermType: 0
+    Description: 
+    Languages:
+    - Time Up!
+    - Tiempo!
+  - Term: No scores yet!
+    TermType: 0
+    Description: 
+    Languages:
+    - No scores yet!
+    - No hay puntajes!
+  - Term: Instructions/End
+    TermType: 0
+    Description: 
+    Languages:
+    - That's it! Enjoy the game!
+    - Eso es todo! Que disfrute el juego!
+  - Term: Instructions/BoardExpansion
+    TermType: 0
+    Description: Expansion
+    Languages:
+    - 'On Growth Mode, filling the board
+
+      will enlarge the play area.'
+    - 'En el Modo Creciente, eliminar bloques
+
+      en todo el tablero, aumenta el espacio de juego.'
+  - Term: Instructions/GrowthModeOnly
+    TermType: 0
+    Description: 
+    Languages:
+    - Growth Mode only!
+    - Solo Modo Creciente!
+  - Term: GlobalScoreChallenge
+    TermType: 0
+    Description: 
+    Languages:
+    - Global Top 1 Challenge!
+    - Reto Primer Puesto Global!
+  - Term: GlobalRecord
+    TermType: 0
+    Description: 
+    Languages:
+    - New Global Record!
+    - Nuevo Record Global!
+  - Term: SeedObtained
+    TermType: 0
+    Description: 
+    Languages:
+    - Seed obtained!
+    - Nivel obtenido!
+  - Term: ErrorTryLater
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Something went wrong.
+
+      Try again in a few minutes.'
+    - 'Algo anda mal.
+
+      Intente nuevamente en unos minutos.'
+  - Term: Instructions/PiecePlacement
+    TermType: 0
+    Description: 
+    Languages:
+    - Left click to place a piece.
+    - Presione click izquierdo para colocar una pieza.
+  - Term: Instructions/BoardClear
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Painting the whole board in gold
+
+      awards lots of points and a life.'
+    - 'Volver todo el tablero dorado
+
+      otorga muchos puntos y una vida.'
+  - Term: Instructions/PersistentPieces
+    TermType: 0
+    Description: 
+    Languages:
+    - "Some blocks will need to be cleared \nmore than once."
+    - "Algunos bloques necesitan ser\neliminados m\xE1s de una vez."
+  - Term: Instructions/LifeTile
+    TermType: 0
+    Description: 
+    Languages:
+    - This single-tile piece will help you out of trouble.
+    - "Esta pieza es \xFAtil para salir de apuros."
+  mLanguages:
+  - Name: English
+    Code: en-US
+  - Name: "Espa\xF1ol"
+    Code: es-MX
+  Assets: []
+  NeverDestroy: 1
+  Spreadsheet_LocalFileName: Resources/LocalizationCSV.csv
+  Google_SpreadsheetKey: teVYmvqeNTF8ZkQhQ21a0Gw
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

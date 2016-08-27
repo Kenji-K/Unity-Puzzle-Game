@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848fcec52cecd624c8d3aa18ed046087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  boardPrefab: {fileID: 11400000, guid: dd1cf4704e6bd4d46a0914784971adb0, type: 2}
+  piecePrefab: {fileID: 11400000, guid: b637afe003b9a9246959ea3a727ccbb4, type: 2}
+  bonusBarPrefab: {fileID: 11400002, guid: 52987c9e6bf4b4e47a0f354993b33d87, type: 2}
+  previewPiecePrefab: {fileID: 11400002, guid: e5efca5d3e2e41c4694110403b9da01b, type: 2}
+  textFxPrefab: {fileID: 11400002, guid: 2f2c80db82253704c8c6307f28f053d6, type: 2}
+  shimmerTextFxPrefab: {fileID: 11400000, guid: 078140f4acf74d2448b4daa0a12447ce,
+    type: 2}
+  tk2dTextPrefab: {fileID: 11400000, guid: e97bbb1a9476c834fbaea81357ba7f31, type: 2}
+  squareSolvedEffectPrefab: {fileID: 100004, guid: c0fb03d037a685b4782f07cc14639747,
+    type: 2}
+  squareClearSound: {fileID: 8300000, guid: 9a0eaf58593bf4944afa39449647fa2f, type: 3}
+  boardClearSound: {fileID: 8300000, guid: a0add9e6d43f3ac49a9e37243ffb5a1e, type: 3}
+  lifeIndicator: {fileID: 11400000, guid: 376b7e5c4707a0941b57da3223bc3b22, type: 2}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d675fc3e999e8874abaaf30dbd737854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
