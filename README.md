@@ -8,3 +8,14 @@ If you try the game, you will find that some things like the social and score sa
 Don't even _try_ to build the project, more than one year has passed since the last attempted build, and many of the dependencies have updated since then (e.g. Unity itself, the Facebook API) or are becoming extinct or deprecated (e.g. Parse NoSQL backend). The project also has a healthy amount of Asset Store dependencies that I am not allowed to include in the repo.
 
 I am including what's left of the project here for reference only.
+
+# The game looks like this
+
+## Tutorial Screen Sample
+![Tutorial Screen Sample](/Screenshots/Tutorialitis.png?raw=true "Tutorial Screen Sample")
+
+## Game Starting Screen
+![Game Starting Screen](/Screenshots/2014_10_10_18_48_22_Poozel_en_Facebook.png?raw=true "Game Starting Screen")
+
+## Score Screen
+![Score Screen](/Screenshots/2014_10_10_18_51_30_Poozel_en_Facebook.png?raw=true "Score Screen")
