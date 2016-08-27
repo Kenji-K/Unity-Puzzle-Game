@@ -19,3 +19,9 @@ I am including what's left of the project here for reference only.
 
 ## Score Screen
 ![Score Screen](/Screenshots/2014_10_10_18_51_30_Poozel_en_Facebook.png?raw=true "Score Screen")
+
+#The team
+
+- Programming: [@Kenji_kina (myself!)](https://twitter.com/Kenji_kina)
+- Game and Graphic Design: [@Action_Martini](https://twitter.com/ActionMartini)
+- Music: [nostraightanswer (Kenji-B)](https://nostraightanswer.bandcamp.com/album/poozel-ost)
