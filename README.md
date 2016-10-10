@@ -1,5 +1,5 @@
 # Abstract-Puzzle-Game
-This is a now defunct game that was independently developed for the Facebook App Store. The project was halted after its beta release due to unforeseen circumstances. **You can find a sort of playable version [here](https://dl.dropboxusercontent.com/u/26842250/WebBuild/index.html)**. **NOTE:** At the time of writing this, Chrome does not support the Unity Web Player so it will not work in that browser. Try Firefox.
+This is a now defunct game that was independently developed for the Facebook App Store. The project was halted after its beta release due to unforeseen circumstances. **You can find a sort of playable version [here](https://kensai.github.io/Abstract-Puzzle-Game/)**. (**NOTE:** At the time of writing this, Chrome does not support the Unity Web Player so it will not work in that browser. Try Firefox.)
 
 If you try the game, you will find that some things like the social and score saving aspects will not work given that it is no longer hosted in the Facebook App Store and the Parse backend will shutdown soon (if it isn't shut down already by the time you read this).
 
